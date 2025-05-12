@@ -1,0 +1,5 @@
+gcloud projects add-iam-policy-binding still-kit-459403-e2 \
+--member "serviceAccount:service-287306326764@compute-system.iam.gserviceaccount.com" \
+--role "roles/compute.instanceAdmin.v1"
+
+
